@@ -194,7 +194,7 @@ CUnknown* WINAPI CLiveSource::CreateInstance(LPUNKNOWN pUnk, HRESULT *phr)
 
 
 
-	m_udpServer = make_shared<CUDPServer>("192.168.21.106" , 8064);
+	m_udpServer = make_shared<CUDPServer>("10.0.0.58" , 8064);
 	m_udpServer->Setup(true);
 	
 	 
